@@ -1,0 +1,50 @@
+/* Custom Fonts */
+@font-face {
+  font-family: alegreya-italic;
+  src: url(../webfonts/alegreya-italic.ttf);
+}
+
+@font-face {
+  font-family: alegreya-regular;
+  src: url(../webfonts/primer.ttf);
+}
+
+@font-face {
+  font-family: aclonica;
+  src: url(../webfonts/aclonica.ttf);
+}
+
+@font-face {
+  font-family: actor-regular;
+  src: url(../webfonts/actor-regular.ttf);
+}
+
+font-face {
+  font-family: water;
+  src: url(../webfonts/water.ttf);
+}
+
+font-face {
+  font-family: alex;
+  src: url(../webfonts/alex.ttf);
+}
+
+.alegreya-i {
+  font-family: alegreya-italic !important;
+}
+
+.alegreya-r {
+  font-family: alegreya-regular !important;
+}
+
+.actor-r {
+  font-family: actor-regular !important;
+}
+
+.title-font {
+  font-family: actor-regular !important;
+}
+
+.alex-font {
+  font-family: alex !important;
+}

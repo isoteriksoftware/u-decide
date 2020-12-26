@@ -1,0 +1,309 @@
+<!--  The header -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Stem Coders Club">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#007bff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#007bff">
+    
+    <title>
+        U_Decide - softwares
+      
+    </title>
+
+    <!-- Bootstrap-4.5.3 core CSS, FontAwesome5 and custom css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/allFontawesome.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<!-- The Header -->
+    <header class="sticky-top">
+
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-dark bg-dark navbar-light navbar-expand-sm  px-3 shadow shadow-sm" id="generic-navbar">
+
+        <a class="navbar-brand" href="">
+        	<span class="fas fa-code mr-2"></span><h5 class="d-inline align-bottom title-font">U-DECIDE SOFTWARE</h5>
+        </a>
+        
+        <button class="navbar-toggler text-light border border-light" style="outline:none" type="button" data-toggle="collapse"
+          data-target="#nav-menu">
+          <span class="fas fa-align-right"></span>
+        </button>
+                 
+        <div id="nav-menu" class="collapse navbar-collapse justify-content-center">
+          <ul class="navbar-nav alex-font text-white">
+            <li class="nav-item active "><a class="nav-link mr-md-3" href="">Home</a></li>
+            <li class="nav-item"><a class="nav-link mr-md-3" href="">Link 1</a></li>
+            <li class="nav-item"><a class="nav-link mr-md-3" href="adminstrator.php">Adminstrator</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle mr-md-3" href="" id="navbardrop" data-toggle="dropdown" > dropdown Link 3</a>
+
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href=""> link a</a>
+                <a class="dropdown-item" href=""> link b</a>
+                <a class="dropdown-item" href=""> link c</a>
+                
+              </div>
+
+            </li>
+            <li class="nav-item"><a class="nav-link mr-md-5" href="">Link 4</a></li>
+          </ul>
+          <form class="form-inline" action="" >
+                <input class="form-control" type="text" name="" placeholder="search parties..">
+                <button class="btn btn-warning ml-1" type="submit"><i class="far fa-phone"></i></button>
+            
+            
+          </form>
+        </div>
+      </nav>
+    </header>
+    
+    <div id="page-contents">
+      <!-- The Main Contents -->
+      <main id="content-wrap" class="container-fluid mt-3">
+
+   
+   
+   
+   
+   
+   
+   
+   <!--  The content of the admin -->
+   
+   <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>U-DECICDE ADMINSTRATOR</h3>
+            </div>
+         <ul class="list-unstyled components">
+            <p>Dummy Heading</p>
+            <li class="active">
+              <a href="#homeSubmenu">
+                <i class="far fa-clock mr-2"></i>
+              Manage Canditate</a>
+                
+            </li>
+            
+            <li>
+                <a href="#"><i class="fas fa-archive mr-2"> </i>Election Module</a>
+            </li>
+
+            <li>
+              <a href="#homeSubmenu">
+                <i class="fab fa-bandcamp mr-2"></i>
+              Register Canditate</a>
+            
+            <li>
+                <a href="#pageSubmenu">
+                <i class="far fa-bookmark mr-2"></i>
+                Party Module</a>
+               
+            </li>
+            
+            <li>
+                <a href="#">
+                  <i class="fas fa-adjust mr-2"></i>
+                Notification Module</a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="far fa-clock mr-2"></i>
+                Manage Admin</a>
+            </li>
+
+            <li>
+                <a href="#">
+                  <i class="fas fa-sign-language mr-2"></i>
+                Result Module</a>
+            </li>
+
+            <li>
+                <a href="#">
+                  <i class="far fa-user mr-2"></i>
+                View Members</a>
+            </li>
+        </ul>
+        
+            
+        </nav>
+
+
+        <div id="content">
+             <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">  
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fa fa-align-left"></i> <span>toggle sidebar</span>
+                    </button>
+                 </div>
+               </nav>
+
+
+               <div class="container p-3">
+                <div class="card shadow shadow-lg" id="card-rounded">
+                  <div class="card-header bg-warning text-center" style="border-top-left-radius: 7rem;
+  border-top-right-radius: 7rem;">  CANDIDATE FORM </div>
+                  <div class="card-body"> 
+                    <form action="">
+
+                      <div class="form-group">
+                        <label for="fullname">Full name: </label>
+                        <input type="text" class="form-control" id="fullname" placeholder="enter fullname">
+                      </div>
+
+                      
+                      <div class="form-group">
+                        <label for="gender"> gender:</label>
+                        <select class="form-control bg-light" name="gender" id="select" required>
+                          <option value="p1" selected>- select</option>
+                          <option value="male">male</option>
+                          <option value="female">female</option>
+                        </select>
+                        
+                      </div>
+
+
+                      <div class="form-group">
+                        <label for="Party"> select position </label>
+                        <select class="form-control bg-light" name="party" id="select"required>
+                          <option value="p1" selected>- select</option>
+                          <option value="p2">president</option>
+                          <option value="p2">governor</option>
+                          <option value="p2">minster</option>
+                          <option value="p2">senate</option>
+                          <option value="p2">house</option>
+                        </select>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="email">Email address: </label>
+                        <input type="email" class="form-control" id="email" placeholder="enter email">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="number">phone number: </label>
+                        <input type="number" class="form-control" id="email" placeholder="your number">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="pwd">password: </label>
+                        <input type="password" class="form-control" id="pwd" placeholder="enter passowrd">
+                      </div>
+
+
+                          <div class="input-group mb-3 row">
+                                <div class="col-sm-2 text-left">
+                                  <label>display picture:</label>
+                                </div>
+                                <div class="col-sm">
+                                  <div class="custom-file">
+                                    <input type="file" class="custom-file-input bg-light" id="image" name="image" required>
+                                    <label class="custom-file-label">Choose display image</label>
+                                  </div>
+                                </div>
+                          </div>
+
+                      <div class="form-group">
+                        <label for="textarea">About: </label>
+                        <textarea class="form-control" id="email" placeholder="about you...">
+                          </textarea>
+                      </div>
+
+                      <button type="submit" class="btn btn-primary">submit</button>
+                      
+                    </form>
+                  </div>
+                  
+                </div>
+                <!-- ADD manage form -->
+                <div class="jumbotron mt-5 text-center p-4">
+                  <h4 class="display-4"> manage party record</h4>
+                  
+                </div>
+                <div class="tabele-responsive-sm mt-4">
+                  <table class="table table-bordered table-hover shadow shadow-lg">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th>S/N</th>
+                        <th>Fullname</th>
+                        <th>position</th>
+                        <th>Vote ID</th>
+                        <th>Vote status</th>
+                      </tr>
+                    </thead> 
+
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>voter voter1</td>
+                        <td>president</td>
+                        <td>psd001</td>
+                        <td>voted</td>
+                      </tr>
+
+                      <tr>
+                        <td>2</td>
+                        <td>voter voter2</td>
+                        <td>secetary</td>
+                        <td>scr001</td>
+                        <td> not voted</td>
+                      </tr>
+
+                      <tr>
+                        <td>3</td>
+                        <td>voter voter3</td>
+                        <td>vice chairman</td>
+                        <td>vcm001</td>
+                        <td> not voted</td>
+                      </tr>
+                    </tbody>
+                      
+                   
+                    
+                  </table>
+                  
+                </div>
+                
+                 
+               </div>
+               <br><br><br><br>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. llit anim id est laborum... 
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. llit anim id est laborum... 
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. llit anim id est laborum... 
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. llit anim id est laborum... 
+
+
+        </div>
+
+</div>
+
+
+</main>
+</div>
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<script type="text/javascript" src="js/allFontawesome.js"></script>
+</body>
+</html>
+
+
+
