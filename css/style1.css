@@ -1,0 +1,257 @@
+/* Generic Utils */
+
+.stretch-on-hover:hover {
+    padding-right: 1.5rem;
+    transition: 0.5s;
+  }
+  
+  .translucent-bg-25 {
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+  
+  .translucent-bg-40 {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .translucent-bg-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .translucent-bg-60 {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .translucent-bg-75 {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  translucent-white-bg-25 {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  .translucent-white-bg-40 {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .translucent-white-bg-50 {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .translucent-white-bg-60 {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .translucent-white-bg-75 {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .btn-rounded {
+    border-radius: 20%;
+  }
+  
+  nav#generic-navbar div#nav-menu li.active {
+    border-bottom: 0.1rem solid #eee;
+  }
+  
+  nav#generic-navbar .navbar-toggler:hover {
+    border-color: #fff !important;
+    padding-right: 2rem;
+    transition: padding 0.3s;
+    transition-timing-function: ease;
+  }
+  
+  nav#generic-navbar div#nav-menu li a:hover {
+    color: #fff !important;
+    border-bottom: 0.3rem solid #fff;
+    border-radius: 0.3rem;
+    transition: 0.3s;
+    transition-timing-function: linear;
+  }
+  
+  nav#generic-navbar div#nav-menu li.active {
+    border-bottom: 0.1rem solid #eee;
+  }
+  
+  div#page-contents {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  main#content-wrap {
+    padding-bottom: 7rem;
+  }
+  
+  footer#generic-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*height: 15rem;*/
+  }
+  
+  /* outdated index page styling*/
+  /* index */
+ /* section#index-info-section .info-header-top .info-icon {
+    font-size: 5rem;
+  }
+  
+  section#index-contact-section .col-sm {
+    margin-top: 3rem;
+  }
+  
+  .index-logo {
+    width: 70% !important;
+  }
+  
+  @media(max-width: 34em)
+  {
+    .index-logo {
+      width: 100% !important;
+    }
+  }
+  
+ */
+
+  /* sidebar content*/
+  
+  
+  .wrapper {
+      display: flex;
+      width: 100%;
+      align-items: stretch;
+  }
+  
+  #sidebar {
+      min-width: 265px;
+      max-width: 265px;
+      /*min-width: 100vh; */
+      background: #FD901B;
+      color: #000;
+      transition: all 0.3s;
+  }
+  #content {
+    margin-left: 1rem;
+  }
+  #sidebar.active {
+     margin-left: -250px;
+  }
+  
+  
+  @media (max-width: 768px) {
+        #sidebar {
+          margin-left: -250px;
+        }
+        #sidebar.active {
+          margin-left: 0;
+        }
+  }
+  
+  a, a:hover, a:focus{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  
+  #sidebar .sidebar-header{
+    padding: 20px;
+    background: #000;
+    color: #6CD2C6;
+  }
+  #sidebar ul.components{
+    padding: 20px 0px;
+    border-bottom: 1px solid #47748b;
+  }
+  
+  #sidebar ul p {
+    padding: 10px;
+    color: 10px;
+  }
+  
+  #sidebar ul li a {
+    padding: 20px;
+    font-size: 1.1em;
+    display: block;
+  }
+  #sidebar ul li a:hover {
+      color: #6CD2C6;
+      /*background: #FBDFAA;*/
+      background: #000;
+  }
+  
+  #sidebar ul li.active > a {
+      color: #000;
+      background: #6CD2C6;
+  }
+  
+  
+  
+  /* party form*/
+  .card#card-rounded {
+    border-radius: 5rem;
+    
+  }
+  label {
+    color: #FD901B;
+    font-weight: bolder;
+    font-size: 1.1em;
+    font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"], input[type="number"],textarea, select#select,
+  input[type="file"] {
+    border: none;
+    background-color: rgb(249, 228, 130) !important;
+    font-size: 1em;
+    -webkit-transition: background-color .75s ease;
+    -moz-transition: background-color .75s ease;
+    -o-transition: background-color .75s ease;
+    transition: background-color .75s ease;
+  }
+
+  input:focus, textarea:focus {
+	border: 2px solid rgb(13, 14, 13) !important;
+	background-color: rgb(97, 209, 196) !important;
+    color: rgb(247, 239, 239) !important;
+    font-size: 1.1em;
+  }
+
+  button.btn-action{
+    background-color: rgba(160, 109, 54,0.8);
+    border-radius: 100%;
+    background: #FD901B;
+    padding: .8em;
+    border: none;
+    width: 8em;
+  }
+
+  button.btn-action:hover {
+    border: 2px solid #FD901B;
+    background-color: rgba(108, 210, 198,0.8);
+    transition: ease-out 0.4s all;
+    padding: .8rem, 1.1rem;
+    width: 10em;
+    font-size: 1.1rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
